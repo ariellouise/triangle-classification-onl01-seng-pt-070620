@@ -18,6 +18,6 @@ class Triangle
     
     if self.s1 == self.s2 && self.s2 == self.s3 
       return :equilateral 
-    elsif (self.s1 == self.s2 && self.s2 != self.s3) || (self.s2 == self.s3)
+    elsif (self.s1 == self.s2 && self.s2 != self.s3) || (self.s2 == self.s3 && self.s1 != self.s3) 
   
 end
