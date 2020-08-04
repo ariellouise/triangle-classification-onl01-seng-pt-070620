@@ -12,6 +12,6 @@ class Triangle
     sum_of_2_and_3 = self.s2 + self.s3 
     sum_of_1_and_3 = self.s1 + self.s3 
     
-    if (self.s1 == 0 || self.s2 == 0 || self.s3 == 0) || (self.s1 < 0 || self.s2 < 0 || self.s3 < 0) || (sum_of_1_and_2 < self.s3 || sum_of_1_and_3 < self.s2 || sum_of_2_and_3 < self.s1) || (sum_of_1_and_2 == self.s3 || sum_of_1_and_3 == self.s2 || sum_of_2_and_3 == self.s)
+    if (self.s1 == 0 || self.s2 == 0 || self.s3 == 0) || (self.s1 < 0 || self.s2 < 0 || self.s3 < 0) || (sum_of_1_and_2 < self.s3 || sum_of_1_and_3 < self.s2 || sum_of_2_and_3 < self.s1) || (sum_of_1_and_2 == self.s3 || sum_of_1_and_3 == self.s2 || sum_of_2_and_3 == self.s1)
   
 end
