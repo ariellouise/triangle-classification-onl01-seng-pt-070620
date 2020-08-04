@@ -18,6 +18,14 @@ class Triangle
     
     if self.s1 == self.s2 && self.s2 == self.s3 
       return :equilateral 
-    elsif (self.s1 == self.s2 && self.s2 != self.s3) || (self.s2 == self.s3 && self.s1 != self.s3) || (self.s1 == self.s3 && self.s1 != self.s2)
+    elsif (self.s1 == self.s2 && self.s2 != self.s3) || (self.s2 == self.s3 && self.s1 != self.s3) || (self.s1 == self.s3 && self.s1 != self.s2) 
+      return :isosceles 
+    elsif (self.s1 != self.s2) && (self.s2 != self.s3) && (self.s3 !+ self.s1)
+      return :scalene
+    end 
+  end 
+  
+  
+  class TriangleError < StandardError
   
 end
